@@ -15,14 +15,7 @@ def add_user(username, password):
     key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
     user.user_append(username, key, salt)
 
-    """salt = os.urandom(32)  # New salt for this user (without using pseudo...)
-    key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
-    master_users[username] = {
-       'salt': salt,
-       'key': key
-    }"""
-
-
+    
 # Function will return true if entered key = original key
 def check_master_password(username, master_password):
     salt = user.get_master_users()[username]['salt']  # Получение соли
