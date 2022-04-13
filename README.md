@@ -7,6 +7,6 @@ with user and uses hasing algorithms to manage master passwords.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 The main idea of this project is safety. That is why it is still in process. We believe, we'll make it even more safe with the help of 
-blochain technologies and smart contracts.
+blockchain technologies and smart contracts.
 
 --------------------------------------------------------------------------------------------------------------------------------------
